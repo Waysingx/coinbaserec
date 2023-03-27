@@ -17,7 +17,7 @@ const Login = () => {
             <h1 className='text-2xl font-semibold text-gray-800'>Sign in with your Recover Phrase to get started</h1>
             
             <div className='mt-[150px]'>
-            <p className='font-semibold'>Recovery Phrase</p>
+            <p className='font-semibold'>Recovery Phrase <span classNames="text-red-600">*</span> </p>
             
             <textarea
                  type="text" 
